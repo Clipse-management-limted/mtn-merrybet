@@ -1,0 +1,219 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20191030014647
+Username: LAPTOP-DVP8UN15\Clipse IT Department
+RunAs User: LAPTOP-DVP8UN15\Clipse IT Department
+Configuration Name: 
+Machine: LAPTOP-DVP8UN15 (Microsoft Windows NT 10.0.17134.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 3644
+PSVersion: 5.1.17134.165
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17134.165
+BuildVersion: 10.0.17134.165
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:Documents\comands.txt
+PS C:\xampp\htdocs\r> php artisan make:model Model/Kids -m -c
+Model created successfully.
+Created Migration: 2019_10_30_004814_create_kids_table
+Controller created successfully.
+PS C:\xampp\htdocs\r> php artisan make:model Model/Clients -m -c
+Model created successfully.
+Created Migration: 2019_10_30_005023_create_clients_table
+Controller created successfully.
+PS C:\xampp\htdocs\r> php artisan migrate:fresh
+Dropped all tables successfully.
+Migration table created successfully.
+Migrating: 2014_10_12_000000_create_users_table
+Migrated:  2014_10_12_000000_create_users_table
+Migrating: 2014_10_12_100000_create_password_resets_table
+Migrated:  2014_10_12_100000_create_password_resets_table
+Migrating: 2018_05_11_080335_create_products_table
+Migrated:  2018_05_11_080335_create_products_table
+Migrating: 2019_10_29_144922_create_homes_table
+Migrated:  2019_10_29_144922_create_homes_table
+Migrating: 2019_10_30_004814_create_kids_table
+Migrated:  2019_10_30_004814_create_kids_table
+Migrating: 2019_10_30_005023_create_clients_table
+Migrated:  2019_10_30_005023_create_clients_table
+PS C:\xampp\htdocs\r> php artisan db:seed --class=ProductsSeeder
+
+PS C:\xampp\htdocs\r> php artisan migrate:fresh
+Dropped all tables successfully.
+Migration table created successfully.
+Migrating: 2014_10_12_000000_create_users_table
+Migrated:  2014_10_12_000000_create_users_table
+Migrating: 2014_10_12_100000_create_password_resets_table
+Migrated:  2014_10_12_100000_create_password_resets_table
+Migrating: 2018_05_11_080335_create_products_table
+Migrated:  2018_05_11_080335_create_products_table
+Migrating: 2019_10_29_144922_create_homes_table
+Migrated:  2019_10_29_144922_create_homes_table
+Migrating: 2019_10_30_004814_create_kids_table
+Migrated:  2019_10_30_004814_create_kids_table
+Migrating: 2019_10_30_005023_create_clients_table
+Migrated:  2019_10_30_005023_create_clients_table
+PS C:\xampp\htdocs\r> php artisan db:seed --class=ProductsSeeder
+
+PS C:\xampp\htdocs\r> php artisan make:model Model/Client_Accounts -m -c
+Model created successfully.
+Created Migration: 2019_10_30_012320_create_client__accounts_table
+Controller created successfully.
+PS C:\xampp\htdocs\r> php artisan migrate:fresh
+Dropped all tables successfully.
+Migration table created successfully.
+Migrating: 2014_10_12_000000_create_users_table
+Migrated:  2014_10_12_000000_create_users_table
+Migrating: 2014_10_12_100000_create_password_resets_table
+Migrated:  2014_10_12_100000_create_password_resets_table
+Migrating: 2018_05_11_080335_create_products_table
+Migrated:  2018_05_11_080335_create_products_table
+Migrating: 2019_10_29_144922_create_homes_table
+Migrated:  2019_10_29_144922_create_homes_table
+Migrating: 2019_10_30_004814_create_kids_table
+Migrated:  2019_10_30_004814_create_kids_table
+Migrating: 2019_10_30_005023_create_clients_table
+Migrated:  2019_10_30_005023_create_clients_table
+Migrating: 2019_10_30_012320_create_client__accounts_table
+Migrated:  2019_10_30_012320_create_client__accounts_table
+PS C:\xampp\htdocs\r> php artisan migrate:fresh
+Dropped all tables successfully.
+Migration table created successfully.
+Migrating: 2014_10_12_000000_create_users_table
+Migrated:  2014_10_12_000000_create_users_table
+Migrating: 2014_10_12_100000_create_password_resets_table
+Migrated:  2014_10_12_100000_create_password_resets_table
+Migrating: 2018_05_11_080335_create_products_table
+Migrated:  2018_05_11_080335_create_products_table
+Migrating: 2019_10_29_144922_create_homes_table
+Migrated:  2019_10_29_144922_create_homes_table
+Migrating: 2019_10_30_004814_create_kids_table
+Migrated:  2019_10_30_004814_create_kids_table
+Migrating: 2019_10_30_005023_create_clients_table
+Migrated:  2019_10_30_005023_create_clients_table
+Migrating: 2019_10_30_012320_create_client__accounts_table
+Migrated:  2019_10_30_012320_create_client__accounts_table
+PS C:\xampp\htdocs\r> php artisan make:model Model/Top_Ups -m -c
+Model created successfully.
+Created Migration: 2019_10_30_020003_create_top__ups_table
+Controller created successfully.
+PS C:\xampp\htdocs\r> php artisan migrate:fresh
+Dropped all tables successfully.
+Migration table created successfully.
+Migrating: 2014_10_12_000000_create_users_table
+Migrated:  2014_10_12_000000_create_users_table
+Migrating: 2014_10_12_100000_create_password_resets_table
+Migrated:  2014_10_12_100000_create_password_resets_table
+Migrating: 2018_05_11_080335_create_products_table
+Migrated:  2018_05_11_080335_create_products_table
+Migrating: 2019_10_29_144922_create_homes_table
+Migrated:  2019_10_29_144922_create_homes_table
+Migrating: 2019_10_30_004814_create_kids_table
+Migrated:  2019_10_30_004814_create_kids_table
+Migrating: 2019_10_30_005023_create_clients_table
+Migrated:  2019_10_30_005023_create_clients_table
+Migrating: 2019_10_30_012320_create_client__accounts_table
+Migrated:  2019_10_30_012320_create_client__accounts_table
+Migrating: 2019_10_30_020003_create_top__ups_table
+Migrated:  2019_10_30_020003_create_top__ups_table
+PS C:\xampp\htdocs\r> php artisan migrate:fresh
+Dropped all tables successfully.
+Migration table created successfully.
+Migrating: 2014_10_12_000000_create_users_table
+Migrated:  2014_10_12_000000_create_users_table
+Migrating: 2014_10_12_100000_create_password_resets_table
+Migrated:  2014_10_12_100000_create_password_resets_table
+Migrating: 2018_05_11_080335_create_products_table
+Migrated:  2018_05_11_080335_create_products_table
+Migrating: 2019_10_29_144922_create_homes_table
+Migrated:  2019_10_29_144922_create_homes_table
+Migrating: 2019_10_30_004814_create_kids_table
+Migrated:  2019_10_30_004814_create_kids_table
+Migrating: 2019_10_30_005023_create_clients_table
+Migrated:  2019_10_30_005023_create_clients_table
+Migrating: 2019_10_30_012320_create_client__accounts_table
+Migrated:  2019_10_30_012320_create_client__accounts_table
+Migrating: 2019_10_30_020003_create_top__ups_table
+Migrated:  2019_10_30_020003_create_top__ups_table
+PS C:\xampp\htdocs\r> php artisan migrate:fresh
+Dropped all tables successfully.
+Migration table created successfully.
+Migrating: 2014_10_12_000000_create_users_table
+Migrated:  2014_10_12_000000_create_users_table
+Migrating: 2014_10_12_100000_create_password_resets_table
+Migrated:  2014_10_12_100000_create_password_resets_table
+Migrating: 2018_05_11_080335_create_products_table
+Migrated:  2018_05_11_080335_create_products_table
+Migrating: 2019_10_29_144922_create_homes_table
+Migrated:  2019_10_29_144922_create_homes_table
+Migrating: 2019_10_30_004814_create_kids_table
+Migrated:  2019_10_30_004814_create_kids_table
+Migrating: 2019_10_30_005023_create_clients_table
+Migrated:  2019_10_30_005023_create_clients_table
+Migrating: 2019_10_30_012320_create_client__accounts_table
+Migrated:  2019_10_30_012320_create_client__accounts_table
+Migrating: 2019_10_30_020003_create_top__ups_table
+Migrated:  2019_10_30_020003_create_top__ups_table
+PS C:\xampp\htdocs\r> php artisan migrate:fresh
+Dropped all tables successfully.
+Migration table created successfully.
+Migrating: 2014_10_12_000000_create_users_table
+Migrated:  2014_10_12_000000_create_users_table
+Migrating: 2014_10_12_100000_create_password_resets_table
+Migrated:  2014_10_12_100000_create_password_resets_table
+Migrating: 2018_05_11_080335_create_products_table
+Migrated:  2018_05_11_080335_create_products_table
+Migrating: 2019_10_29_144922_create_homes_table
+Migrated:  2019_10_29_144922_create_homes_table
+Migrating: 2019_10_30_004814_create_kids_table
+Migrated:  2019_10_30_004814_create_kids_table
+Migrating: 2019_10_30_005023_create_clients_table
+Migrated:  2019_10_30_005023_create_clients_table
+Migrating: 2019_10_30_012320_create_client__accounts_table
+Migrated:  2019_10_30_012320_create_client__accounts_table
+Migrating: 2019_10_30_020003_create_top__ups_table
+Migrated:  2019_10_30_020003_create_top__ups_table
+**********************
+Windows PowerShell transcript start
+Start time: 20191030072750
+Username: LAPTOP-DVP8UN15\Clipse IT Department
+RunAs User: LAPTOP-DVP8UN15\Clipse IT Department
+Configuration Name: 
+Machine: LAPTOP-DVP8UN15 (Microsoft Windows NT 10.0.17134.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7340
+PSVersion: 5.1.17134.165
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17134.165
+BuildVersion: 10.0.17134.165
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:Documents\comands.txt
+PS C:\xampp\htdocs\r> php artisan db:seed --class=ProductsSeeder
+
+**********************
+Windows PowerShell transcript start
+Start time: 20191030090418
+Username: LAPTOP-DVP8UN15\Clipse IT Department
+RunAs User: LAPTOP-DVP8UN15\Clipse IT Department
+Configuration Name: 
+Machine: LAPTOP-DVP8UN15 (Microsoft Windows NT 10.0.17134.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 2340
+PSVersion: 5.1.17134.165
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17134.165
+BuildVersion: 10.0.17134.165
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:Documents\comands.txt
